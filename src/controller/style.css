@@ -1,0 +1,45 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root
+{
+	-fx-background-color: #B3E5FC;
+}
+RadioButton
+{
+	-fx-font-size:15px;
+	-fx-padding:20px 50px 20px 50px;	
+}
+.check
+{
+	-fx-font-size:15px;
+	-fx-padding:0px 0px 0px 20px;
+}
+Button
+{
+	-fx-font-size:15px;
+	-fx-padding:20px 50px 20px 50px;
+    -fx-background-color : #29B6F6;
+    -fx-text-fill        : #E1F5FE;
+    -fx-font-weight      : 900;
+}
+Button:hover {
+    -fx-background-color : #01579B;
+    }
+.table
+{
+	-fx-padding:20px 50px 20px 50px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
